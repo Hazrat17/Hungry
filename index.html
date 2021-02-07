@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Hungry-Monster</title>
+
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/icon.png"alt="" width="30" height="24">
+                    
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav" style="margin-left: auto">
+                        <a class="nav-link active " aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Recipes</a>
+                        <a class="nav-link" href="#">Blog</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- searchBox -->
+        <div class="container-fluid search-box mt-5 mb-5">
+            <form class="d-flex">
+              <input id="searchBox" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button id="search" onclick="foodsData();" class="btn btn-outline-success" type="button">Search</button>
+            </form>
+          </div>
+    </header>
+    <section class="container">
+        <div id="food-detail" class="details">
+
+    </div>
+        <div id="foods" class="details">
+            
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
